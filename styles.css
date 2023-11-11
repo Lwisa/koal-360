@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  .dat-pic{
+    width: 450px;
+    margin-left:23em;
+    margin-top: 5em;
+  }
+  .words{
+    margin-top: 9em;
+    margin-left: 4em;
+  } 
+  .h1{
+    font-size: 50px;
+  }
+  .par{
+    font-size: 25px
+  }
+  .horizontal-nav {
+    background-color: #00075B;
+    display: flex;
+    height: 60px;
+  }
+
+  .logo-item{
+    width:40px;
+    height:40px;
+    margin-right: 70%;
+    margin-left: 3%;
+    margin-top: 1%;
+  }
+
+  .nav-list {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 25px;
+  }
+
+  .nav-item {
+  margin: 0;
+  padding: 0 15px;
+  text-align: center;
+  box-sizing: border-box;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+/* Target anchor tags within .nav-item and set the text color */
+.nav-item a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+/* Add a rule for anchor tag hover state */
+.nav-item a:hover {
+  color: #ffffff; /* Keep the text color the same */
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.vertical-gallery {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .vertical-gallery li {
+    margin: 0;
+    padding:-1px;
+    padding-bottom: 0px;
+    /* border-bottom: 2px solid #00075B; */
+  }
+  
+  .vertical-gallery img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer {
+    background-color:  #00075B;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .left-section,
+  .center-section,
+  .right-section {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .left-section h2,
+  .center-section h2,
+  .right-section h2 {
+    margin-bottom: 10px;
+  }
+  .center-section{
+    margin-left: 8em;
+  }
+  
+  form input {
+    width: 60%;
+    padding: 8px;
+    margin-bottom: 8px;
+  }
+  
+  form button {
+    background-color: #1d1d1c;
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .social-icons a {
+    margin-right: 10px;
+  }
+  
+  .social-icons img {
+    width: 30px;
+    height: 30px;
+  }
+  
+  .right-section p {
+    margin: 5px 0;
+  }
+
+  .gallery-item {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .image-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:#00075B;
+    font-weight: 570;
+    color: #fff;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 28em;
+    cursor: pointer;
+  }
